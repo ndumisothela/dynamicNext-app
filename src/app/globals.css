@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+
+  background-color: white ;
+  font-family: sans-serif;
+      
+}
+.backHomeBtn{
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:#FF9800;
+  color: white;
+  border-radius: 5px;
+}
+.titleHeader{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.homeList{
+  padding-left: 10px;
+  margin: 20px 20px;
+}
+.filmList{
+  border: 1px grey solid;
+  margin-top: 2px;
+  padding-left: 5px;
+}
+.filmList:hover{
+  background-color: #F79327;
+}
+.filmInfo{
+  margin: 20px 40px;
+}
+.filmTitle{
+font-size: 25px;
+}
+.storyLine{
+  border: 2px #FFC26F solid;
+  box-sizing: border-box;
+  padding: 5px;
+margin-bottom: 5px;
+background-color:#FEFDED ;
+}
